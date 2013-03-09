@@ -1,4 +1,5 @@
 set nocompatible               " be iMproved
+set hidden
 
 " Vundle
 filetype off                   " required!

@@ -12,3 +12,9 @@ Installation
 * Make it work -
 `ln -s ~/.vim/vimrc ~/.vimrc && vim -c BundleInstall`
 * Enjoy!
+
+### JavaScript
+`sudo npm install -g coffeescript jshint`
+
+### Python
+`sudo pip install flake8`

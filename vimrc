@@ -31,12 +31,15 @@ filetype plugin indent on
 
 set hidden
 set pastetoggle=<F2>
-set smarttab smartindent smartcase
-
 set wildignore=*.pyc,*.swp,*~
 set wildmode=longest:list
 set undodir^=~/.undodir
 
+set ignorecase smartcase
+set incsearch hlsearch
+nnoremap <C-L> :nohls<CR><C-L>
+
+set smarttab smartindent
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 autocmd FileType html,css,javascript setlocal ts=2 sts=2 sw=2
 
@@ -45,8 +48,6 @@ nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>b :TagbarToggle<CR>
 nnoremap <leader>m :CtrlPMixed<CR>
 
-set incsearch hlsearch
-nnoremap <C-L> :nohls<CR><C-L>
 nnoremap <Up> gk
 nnoremap <Down> gj
 

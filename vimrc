@@ -9,9 +9,6 @@ Bundle 'tpope/vim-sensible'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
-Bundle 'tpope/vim-markdown'
-Bundle 'tpope/vim-rails'
-Bundle 'vim-ruby/vim-ruby'
 Bundle 'Lokaltog/vim-easymotion'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'scrooloose/nerdtree'
@@ -19,13 +16,26 @@ Bundle 'scrooloose/syntastic'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
 Bundle 'sjbach/lusty'
-Bundle 'mattn/zencoding-vim'
 Bundle 'majutsushi/tagbar'
 Bundle 'Raimondi/delimitMate'
+" colorschema
 Bundle 'altercation/vim-colors-solarized'
+" filetype
+Bundle 'tpope/vim-markdown'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
+" snipmate
+Bundle "MarcWeber/ultisnips"
+Bundle "honza/vim-snippets"
+" python
 Bundle 'hynek/vim-python-pep8-indent'
+" ruby
+Bundle 'vim-ruby/vim-ruby'
+Bundle 'tpope/vim-rails'
+" javascript
+Bundle 'othree/javascript-libraries-syntax.vim'
+" html
+Bundle 'mattn/zencoding-vim'
 
 filetype plugin indent on
 

@@ -33,6 +33,7 @@ Bundle 'hynek/vim-python-pep8-indent'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 " javascript
+Bundle 'pangloss/vim-javascript'
 Bundle 'othree/javascript-libraries-syntax.vim'
 " html
 Bundle 'mattn/zencoding-vim'
@@ -51,12 +52,12 @@ nnoremap <C-L> :nohls<CR><C-L>
 
 set smarttab smartindent
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-autocmd FileType html,css,javascript setlocal ts=2 sts=2 sw=2
+"autocmd FileType html,css,javascript setlocal ts=2 sts=2 sw=2
 
 let mapleader=" "
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>b :TagbarToggle<CR>
-nnoremap <leader>m :CtrlPMixed<CR>
+nnoremap <leader>m :CtrlPMRUFiles<CR>
 
 nnoremap <Up> gk
 nnoremap <Down> gj

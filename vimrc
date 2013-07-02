@@ -33,6 +33,10 @@ Bundle 'hynek/vim-python-pep8-indent'
 " ruby
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
+" clojure
+Bundle 'tpope/vim-fireplace'
+Bundle 'tpope/vim-classpath'
+Bundle 'guns/vim-clojure-static'
 " javascript
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/javascript-libraries-syntax.vim'

@@ -18,6 +18,7 @@ Bundle 'kien/ctrlp.vim'
 Bundle 'sjbach/lusty'
 Bundle 'majutsushi/tagbar'
 Bundle 'Raimondi/delimitMate'
+Bundle 'terryma/vim-multiple-cursors'
 " colorschema
 Bundle 'altercation/vim-colors-solarized'
 " filetype

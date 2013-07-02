@@ -68,3 +68,5 @@ if has('gui_running')
 else
 	set background=dark
 endif
+
+source ~/.vim/vimrc.local

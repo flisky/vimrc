@@ -35,8 +35,9 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
 " clojure
 Bundle 'tpope/vim-fireplace'
-Bundle 'tpope/vim-classpath'
 Bundle 'guns/vim-clojure-static'
+Bundle 'paredit.vim'
+autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
 " javascript
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/javascript-libraries-syntax.vim'

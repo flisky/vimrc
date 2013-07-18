@@ -37,6 +37,7 @@ Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-fireplace'
 Bundle 'guns/vim-clojure-static'
 Bundle 'paredit.vim'
+let g:paredit_electric_return = 0  " clojure favored
 autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
 " javascript
 Bundle 'pangloss/vim-javascript'

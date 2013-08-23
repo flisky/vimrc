@@ -43,7 +43,7 @@ autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/javascript-libraries-syntax.vim'
 " html
-Bundle 'mattn/zencoding-vim'
+Bundle 'mattn/emmet-vim'
 
 filetype plugin indent on
 

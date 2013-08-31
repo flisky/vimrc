@@ -6,7 +6,6 @@ set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 " my vundles
 Bundle 'tpope/vim-sensible'
-Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'Lokaltog/vim-easymotion'
@@ -28,6 +27,9 @@ Bundle 'kchmck/vim-coffee-script'
 " snipmate
 Bundle "MarcWeber/ultisnips"
 Bundle "honza/vim-snippets"
+" git
+Bundle 'tpope/vim-fugitive'
+Bundle 'airblade/vim-gitgutter'
 " python
 Bundle 'hynek/vim-python-pep8-indent'
 " ruby

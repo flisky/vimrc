@@ -18,6 +18,7 @@ Bundle 'sjbach/lusty'
 Bundle 'majutsushi/tagbar'
 Bundle 'Raimondi/delimitMate'
 Bundle 'terryma/vim-multiple-cursors'
+Bundle 'editorconfig/editorconfig-vim'
 " colorschema
 Bundle 'altercation/vim-colors-solarized'
 " filetype
@@ -64,7 +65,6 @@ nnoremap <C-L> :nohls<CR><C-L>
 
 set smarttab smartindent
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-"autocmd FileType html,css,javascript setlocal ts=2 sts=2 sw=2
 
 let mapleader=" "
 nnoremap <leader>n :NERDTreeToggle<CR>

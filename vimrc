@@ -39,6 +39,9 @@ Bundle 'guns/vim-clojure-static'
 Bundle 'paredit.vim'
 let g:paredit_electric_return = 0  " clojure favored
 autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
+" go
+Bundle 'jnwhiteh/vim-golang'
+Bundle 'nsf/gocode', {'rtp': 'vim/'}
 " javascript
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/javascript-libraries-syntax.vim'

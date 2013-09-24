@@ -25,9 +25,11 @@ Bundle 'altercation/vim-colors-solarized'
 Bundle 'tpope/vim-markdown'
 Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
-" snipmate
-Bundle "MarcWeber/ultisnips"
-Bundle "honza/vim-snippets"
+" completion
+Bundle 'Valloric/YouCompleteMe'
+Bundle 'MarcWeber/ultisnips'
+let g:UltiSnipsExpandTrigger="<c-j>"
+Bundle 'honza/vim-snippets'
 " git
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'

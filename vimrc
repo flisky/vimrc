@@ -65,9 +65,6 @@ set ignorecase smartcase
 set incsearch hlsearch
 nnoremap <C-L> :nohls<CR><C-L>
 
-set smarttab smartindent
-set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
-
 let mapleader=","
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>b :TagbarToggle<CR>

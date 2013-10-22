@@ -46,7 +46,12 @@ let g:paredit_electric_return = 0  " clojure favored
 autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
 " go
 Bundle 'jnwhiteh/vim-golang'
+Bundle 'dgryski/vim-godef'
 Bundle 'nsf/gocode', {'rtp': 'vim/'}
+" plz install golint by `go get github.com/golang/lint/golint`
+" no need this since we have syntastic
+" Bundle 'golang/lint', {'rtp': 'misc/vim/'}
+
 " javascript
 Bundle 'pangloss/vim-javascript'
 Bundle 'othree/javascript-libraries-syntax.vim'

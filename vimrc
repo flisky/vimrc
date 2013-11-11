@@ -84,7 +84,6 @@ let g:tagbar_type_go = {
 
 " javascript
 Bundle 'pangloss/vim-javascript'
-Bundle 'othree/javascript-libraries-syntax.vim'
 " html
 Bundle 'mattn/emmet-vim'
 

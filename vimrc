@@ -19,6 +19,7 @@ Bundle 'majutsushi/tagbar'
 Bundle 'Raimondi/delimitMate'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'editorconfig/editorconfig-vim'
+Bundle 'sjl/gundo.vim'
 " colorschema
 Bundle 'altercation/vim-colors-solarized'
 " filetype
@@ -93,7 +94,8 @@ set hidden
 set pastetoggle=<F2>
 set wildignore=*.pyc,*.swp,*~
 set wildmode=longest:list
-set undodir^=~/.undodir
+set undofile
+set undodir=~/.undodir
 
 set ignorecase smartcase
 set incsearch hlsearch

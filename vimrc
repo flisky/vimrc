@@ -39,12 +39,16 @@ Bundle 'hynek/vim-python-pep8-indent'
 " ruby
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-rails'
+
 " clojure
 Bundle 'tpope/vim-fireplace'
 Bundle 'guns/vim-clojure-static'
-Bundle 'paredit.vim'
+Bundle 'kovisoft/slimv'
+Bundle 'kien/rainbow_parentheses.vim'
 let g:paredit_electric_return = 0  " clojure favored
 autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
+autocmd VimEnter * RainbowParenthesesToggle
+
 " go
 Bundle 'jnwhiteh/vim-golang'
 " go get -v code.google.com/p/rog-go/exp/cmd/godef

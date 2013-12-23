@@ -91,6 +91,8 @@ let g:tagbar_type_go = {
 Bundle 'pangloss/vim-javascript'
 " html
 Bundle 'mattn/emmet-vim'
+" yaml
+Bundle 'chase/vim-ansible-yaml'
 
 filetype plugin indent on
 

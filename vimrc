@@ -94,6 +94,7 @@ Bundle 'pangloss/vim-javascript'
 Bundle 'mattn/emmet-vim'
 " yaml
 Bundle 'chase/vim-ansible-yaml'
+Bundle 'saltstack/salt-vim'
 
 filetype plugin indent on
 

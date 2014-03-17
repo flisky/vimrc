@@ -7,14 +7,22 @@ Installation
 `sudo apt-get install vim-nox`
 * Install the plugins dependencies -
 `sudo apt-get install ack-grep exuberant-ctags`
-* Clone project & intialize Vundle -
-`git clone --recursive git://github.com/flisky/vimrc.git`
+* Clone project
+`git clone git://github.com/flisky/vimrc.git $HOME/.vimrc`
+* Intialize Vundle
+`git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
 * Make it work -
 `ln -s ~/.vim/vimrc ~/.vimrc && vim -c BundleInstall`
 * Enjoy!
 
 ### JavaScript
-`sudo npm install -g coffeescript jshint`
+`npm install -g jshint`
+
+### Coffeescript
+`npm install -g coffeescript coffeelint`
 
 ### Python
-`sudo pip install flake8`
+`pip install flake8`
+
+### System
+`apt-get install ack-grep`

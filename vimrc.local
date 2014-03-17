@@ -16,3 +16,5 @@ autocmd BufReadPost *
      \ endif
 " Remember info about open buffers on close
 set viminfo^=%
+
+set fileencodings=utf-8,gb18030

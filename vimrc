@@ -32,11 +32,11 @@ Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
 " completion
 Bundle 'Valloric/YouCompleteMe'
-Bundle 'MarcWeber/ultisnips'
-let g:UltiSnipsExpandTrigger="<c-j>"
 " run `npm install`
 Bundle "marijnh/tern_for_vim"
 Bundle 'honza/vim-snippets'
+Bundle 'SirVer/ultisnips'
+let g:UltiSnipsExpandTrigger="<c-j>"
 " git
 Bundle 'tpope/vim-fugitive'
 Bundle 'airblade/vim-gitgutter'

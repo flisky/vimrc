@@ -23,6 +23,7 @@ Bundle 'Raimondi/delimitMate'
 Bundle 'terryma/vim-multiple-cursors'
 Bundle 'editorconfig/editorconfig-vim'
 Bundle 'sjl/gundo.vim'
+Bundle 'Yggdroot/indentLine'
 " colorschema
 Bundle 'altercation/vim-colors-solarized'
 " filetype
@@ -33,6 +34,8 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'MarcWeber/ultisnips'
 let g:UltiSnipsExpandTrigger="<c-j>"
+" run `npm install`
+Bundle "marijnh/tern_for_vim"
 Bundle 'honza/vim-snippets'
 " git
 Bundle 'tpope/vim-fugitive'

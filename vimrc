@@ -33,6 +33,18 @@ Bundle 'juvenn/mustache.vim'
 Bundle 'kchmck/vim-coffee-script'
 " completion
 Bundle 'Valloric/YouCompleteMe'
+let g:ycm_semantic_triggers =  {
+\   'c' : ['->', '.'],
+\   'objc' : ['->', '.'],
+\   'ocaml' : ['.', '#'],
+\   'cpp,objcpp' : ['->', '.', '::'],
+\   'perl' : ['->'],
+\   'php' : ['->', '::'],
+\   'cs,java,javascript,d,vim,python,perl6,scala,vb,elixir,go' : ['.'],
+\   'ruby' : ['.', '::'],
+\   'lua' : ['.', ':'],
+\   'erlang' : [':'],
+\ }
 " run `npm install`
 Bundle "marijnh/tern_for_vim"
 Bundle 'honza/vim-snippets'

@@ -17,6 +17,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'scrooloose/syntastic'
 Bundle 'mileszs/ack.vim'
 Bundle 'kien/ctrlp.vim'
+let g:ctrlp_cmd = 'CtrlPMRUFiles'
 Bundle 'sjbach/lusty'
 Bundle 'majutsushi/tagbar'
 Bundle 'Raimondi/delimitMate'
@@ -117,7 +118,6 @@ nnoremap <C-L> :nohls<CR><C-L>
 let mapleader=","
 nnoremap <leader>n :NERDTreeToggle<CR>
 nnoremap <leader>b :TagbarToggle<CR>
-nnoremap <leader>m :CtrlPMRUFiles<CR>
 
 nnoremap <Up> gk
 nnoremap <Down> gj

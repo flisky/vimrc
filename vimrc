@@ -112,6 +112,9 @@ Plugin 'mattn/emmet-vim'
 Plugin 'chase/vim-ansible-yaml'
 Plugin 'saltstack/salt-vim'
 
+" rust
+Plugin 'wting/rust.vim'
+
 call vundle#end()
 
 filetype plugin indent on

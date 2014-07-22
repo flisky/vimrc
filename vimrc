@@ -63,7 +63,7 @@ Plugin 'tpope/vim-rails'
 " clojure
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
-Plugin 'kovisoft/slimv'
+Plugin 'guns/vim-sexp'
 Plugin 'kien/rainbow_parentheses.vim'
 let g:paredit_electric_return = 0  " clojure favored
 autocmd FileType lisp,clojure let b:loaded_delimitMate = 1

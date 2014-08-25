@@ -27,10 +27,6 @@ Plugin 'sjl/gundo.vim'
 Plugin 'Yggdroot/indentLine'
 " colorschema
 Plugin 'altercation/vim-colors-solarized'
-" filetype
-Plugin 'tpope/vim-markdown'
-Plugin 'juvenn/mustache.vim'
-Plugin 'kchmck/vim-coffee-script'
 " completion
 Plugin 'Valloric/YouCompleteMe'
 let g:ycm_server_use_vim_stdout=1
@@ -46,11 +42,10 @@ let g:ycm_semantic_triggers = {
   \   'lua' : ['.', ':'],
   \   'erlang' : [':'],
   \ }
-" run npm install
-Plugin 'marijnh/tern_for_vim'
 Plugin 'honza/vim-snippets'
 Plugin 'SirVer/ultisnips'
 let g:UltiSnipsExpandTrigger="<c-j>"
+Plugin 'mattn/emmet-vim'
 " git
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
@@ -60,7 +55,6 @@ let g:syntastic_python_checkers = ['flake8']
 " ruby
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
-
 " clojure
 Plugin 'tpope/vim-fireplace'
 Plugin 'guns/vim-clojure-static'
@@ -69,20 +63,20 @@ Plugin 'kien/rainbow_parentheses.vim'
 let g:paredit_electric_return = 0  " clojure favored
 autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
 autocmd VimEnter * RainbowParenthesesToggle
-
 " go
 Plugin 'fatih/vim-go'
-
-" javascript
+" js and relatives
 Plugin 'pangloss/vim-javascript'
-" html
-Plugin 'mattn/emmet-vim'
-" yaml
-Plugin 'chase/vim-ansible-yaml'
-Plugin 'saltstack/salt-vim'
-
+Plugin 'marijnh/tern_for_vim' " run npm update
+Plugin 'kchmck/vim-coffee-script'
 " rust
 Plugin 'wting/rust.vim'
+" template languages
+Plugin 'tpope/vim-markdown'
+Plugin 'juvenn/mustache.vim'
+" tool helpers
+Plugin 'chase/vim-ansible-yaml'
+Plugin 'saltstack/salt-vim'
 
 call vundle#end()
 

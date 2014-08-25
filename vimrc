@@ -70,39 +70,7 @@ autocmd FileType lisp,clojure let b:loaded_delimitMate = 1
 autocmd VimEnter * RainbowParenthesesToggle
 
 " go
-Plugin 'jnwhiteh/vim-golang'
-Plugin 'dgryski/vim-godef'
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
-autocmd FileType go autocmd BufWritePre <buffer> Fmt
-let g:gofmt_command="goimports"
-let g:syntastic_go_checkers=['go', 'govet', 'golint']
-let g:tagbar_type_go = {
-    \ 'ctagstype' : 'go',
-    \ 'kinds'     : [
-        \ 'p:package',
-        \ 'i:imports:1',
-        \ 'c:constants',
-        \ 'v:variables',
-        \ 't:types',
-        \ 'n:interfaces',
-        \ 'w:fields',
-        \ 'e:embedded',
-        \ 'm:methods',
-        \ 'r:constructor',
-        \ 'f:functions'
-    \ ],
-    \ 'sro' : '.',
-    \ 'kind2scope' : {
-        \ 't' : 'ctype',
-        \ 'n' : 'ntype'
-    \ },
-    \ 'scope2kind' : {
-        \ 'ctype' : 't',
-        \ 'ntype' : 'n'
-    \ },
-    \ 'ctagsbin'  : 'gotags',
-    \ 'ctagsargs' : '-sort -silent'
-\ }
+Plugin 'fatih/vim-go'
 
 " javascript
 Plugin 'pangloss/vim-javascript'

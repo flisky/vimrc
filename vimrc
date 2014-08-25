@@ -56,6 +56,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 " python
 Plugin 'hynek/vim-python-pep8-indent'
+let g:syntastic_python_checkers = ['flake8']
 " ruby
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
